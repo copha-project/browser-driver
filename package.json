@@ -1,7 +1,22 @@
 {
-  "name": "browser-driver",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "aong",
-  "license": "MIT"
+    "name": "browser-driver",
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": "aong",
+    "homepage": "https://github.com/copha-project/browser-driver",
+    "repository": "github.com:copha-project/browser-driver",
+    "scripts": {
+        "update": "node ./bin/update.js"
+    },
+    "os": [
+        "darwin"
+    ],
+    "cpu": [
+        "x64"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "adm-zip": "^0.5.9",
+        "uni-utils": "^1.0.13"
+    }
 }
